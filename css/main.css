@@ -1,8 +1,105 @@
-  body {
-    font-family: 'Raleway', sans-serif;
-    background-color: #242b33;
-    margin: 0;
-  }
-  * { 
+body {
+    font-family: 'Mulish', sans-serif;
+    background-color: #fff;
+}
+* { 
     box-sizing: border-box;
   }
+li {
+    list-style-type: none;
+}
+a {
+  text-decoration: none;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 400;
+  color: #1f1534;
+}
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 56px;
+}
+.header a img {
+  padding-left: 191px;
+}
+.first-nav {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 700;
+  color: #1f1534;
+}
+.nav ul {
+  display: flex;
+  margin-bottom: 0;
+}
+.nav ul li {
+  padding: 0 20px 0;
+  margin: 0;
+}
+.nav ul li:last-child {
+  padding-right: 192px;
+}
+section {
+  display: flex;
+}
+h1 {
+  display: block;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  width: 427px;
+  margin-bottom: 0;
+  margin-left: 190px;
+}
+h2 {
+  font-family: 'Mulish';
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 56px;
+}
+.section-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main-text p {
+  font-family: 'Mulish';
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 32px;
+  max-width: 445px;
+  margin: 25px 0 45px 190px;
+}
+.section-1 img {
+  margin-right: 163px;
+  padding-top: 84px;
+}
+.section-1 button {
+  margin-left: 190px;
+  height: 56px;
+  text-align: center;
+  width: 200px;
+  border-radius: 55px;
+  background: #458ff6;
+  font-weight: bold; 
+  font-size: 18px;
+  color: #fff;
+}
+.section-1 button:hover {
+  font-size: 21px;
+  transition: 0.2s;
+} 
+.section-2 {
+  padding-top: 192px;
+}
+.section-2 h2 {
+  text-align: center;
+}
+.rectangle {
+  width: 56px;
+  height: 2px;
+  background: #000;
+  border-radius: 5px;
+  padding-top: 26px;
+}
