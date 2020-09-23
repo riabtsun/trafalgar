@@ -21,8 +21,8 @@ a {
   align-items: center;
   padding-top: 56px;
 }
-.header a img {
-  padding-left: 191px;
+.logo-img {
+  margin-left: 191px;
 }
 .first-nav {
   font-family: 'Mulish', sans-serif;
@@ -58,7 +58,7 @@ h2 {
   font-size: 36px;
   line-height: 56px;
 }
-.section-1 {
+.section-1, .section-3, .section-4 {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -82,9 +82,13 @@ h2 {
   width: 200px;
   border-radius: 55px;
   background: #458ff6;
-  font-weight: bold; 
+  font-weight: 700; 
   font-size: 18px;
   color: #fff;
+}
+.container-sec-2 {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 .section-1 button:hover {
   font-size: 21px;
@@ -96,10 +100,201 @@ h2 {
 .section-2 h2 {
   text-align: center;
 }
-.rectangle {
+.section-2-div h2::after {
+  content: '';
+  display: block;
+  width: 56px;
+  height: 2px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #000;
+  border-radius: 5px;
+  margin-top: 26px;
+}
+.section-2-div p {
+  font-family: 'Mulish';
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: #7d7987;
+  width: 952px;
+}
+.service-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.service-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  padding-inline-start: 0;
+}
+.section-2 button {
+  height: 56px;
+  width: 200px;
+  border: 1.4px solid #458ff6;
+  border-radius: 55px;
+  background: #fff;
+  font-weight: 700; 
+  font-size: 18px;
+  color: #458ff6;
+  margin-top: 54px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.service-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;  
+  width: 350px;
+  height: 354px;
+  border-radius: 20px;
+  box-shadow: 10px 40px 50px #e5e9f666;
+  margin: 18px 18px;
+}
+.service-div img,.service-div h3,.service-div p {
+  padding-left: 38px;
+}
+.service-div img {
+  height: 95px;
+}
+.service-div p {
+font-family: 'Mulish';
+font-weight: 300;
+font-size: 16px;
+line-height: 28px;
+color: #7D7987;
+}
+.service-div h3 {
+  padding-top: 10px;
+}
+.sec-3-div p, .sec-4-div p {
+  font-family: 'Mulish';
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  max-width: 445px;
+  color: #7d7987;
+}
+.section-3 {
+  max-width: 1273px;
+  margin-left: 135px;
+  padding-top: 220px;
+  margin-right: 193px;
+}
+.section-3 img {
+  margin-right: 142px;
+}
+.sec-3-div h2::after, 
+.sec-4-div h2::after  {
+  content: '';
+  display: block;
   width: 56px;
   height: 2px;
   background: #000;
   border-radius: 5px;
-  padding-top: 26px;
+  margin-top: 26px;
+}
+.sec-3-div button {
+  height: 56px;
+  width: 200px;
+  border: 1.4px solid #458ff6;
+  border-radius: 55px;
+  background: #fff;
+  font-weight: 700; 
+  font-size: 18px;
+  color: #458ff6;
+  margin-top: 19px;
+}
+.section-4 {
+  padding-top: 229px;
+}
+.section-4 img {
+  margin-right: 164px;
+}
+.sec-4-div {
+  margin-left: 280px;
+}
+.sec-4-div a {
+  padding: 1em 1.5em;
+  display: block;
+  text-align: center;
+  height: 56px;
+  width: 200px;
+  border: 1.4px solid #458ff6;
+  border-radius: 55px;
+  background: #fff;
+  font-weight: 700; 
+  font-size: 18px;
+  color: #458ff6;
+}
+.testimonials {
+  background:  linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+  border-radius: 24px;
+  max-width: 1120px;
+  height: 425px;
+  margin: 266px auto;
+}
+.testimonials-text p {
+
+  font-family: 'Mulish';
+  font-size: 19px;
+  line-height: 30px;
+  color: #fff;
+}
+.testimonials h2 {
+  padding-top: 64px;
+  text-align: center;
+  font-family: 'Mulish';
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  color: #fff;
+}
+.testimonials h2:after {
+  display: block;
+  content: '';
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 56px;
+  height: 2px;
+  background: #fff;
+  border-radius: 6px;
+}
+.person-review {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+}
+.person-review img {
+  margin-top: 36px;
+  margin-left: 118px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+.person-title {
+  padding-top: 67px;
+  margin-left: 29px;
+}
+.person-title h3 {
+font-family: 'Mulish';
+font-weight: 700;
+font-size: 22px;
+line-height: 48px;
+max-width: 184px;
+color: #fff;
+}
+.person-title p {
+  font-family: 'Mulish';
+font-size: 18px;
+line-height: 48px;
+color: #ffffffd9;
 }
