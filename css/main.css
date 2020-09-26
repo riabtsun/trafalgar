@@ -513,7 +513,7 @@ color: rgba(255, 255, 255, 0.85);
   opacity: 1;
   margin-left: 15px;
 }
-.footer {
+.main-footer {
   padding-top: 201px;
 }
 .footer-container {
@@ -537,7 +537,7 @@ h5 {
   line-height: 60px;
   color: #fff
 }
-.footer {
+.main-footer {
   position: relative;
   z-index: 1;
 }
