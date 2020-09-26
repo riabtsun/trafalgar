@@ -157,7 +157,7 @@ h2 {
   flex-wrap: wrap;
   margin-left: auto;
   margin-right: auto;
-  padding-inline-start: 0;
+  padding: 0;
 }
 .btn-sec-2,
 .btn-sec-5 {
@@ -378,7 +378,7 @@ color: rgba(255, 255, 255, 0.85);
   align-items: center;
   max-width: 100%;
   padding-top: 40px;
-  padding-inline-start: 0;
+  padding-left: 0;
 }
 .btn-mid {
   border: none;
@@ -521,7 +521,7 @@ color: rgba(255, 255, 255, 0.85);
   background: linear-gradient(183.41deg, #67c3f3 -8.57%, #5a98f2 82.96%);
 }
 .footer-block ul {
-  padding-inline-start: 0;
+  padding: 0;
 }
 .footer-block ul li a {
   font-family: 'Mulish';
