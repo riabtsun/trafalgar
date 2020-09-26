@@ -13,14 +13,15 @@
 
 <body>
   <header class="header">
-    <a href="" class="logo-img"><img src="./images/logo-header.svg" alt="logo of company"></a>
+    <a href="#href" class="logo-img" aria-label="logo of company"><img src="./images/logo-header.svg"
+        alt="logo of company"></a>
     <nav class="nav">
-      <ul>
-        <li><a href="/" class="first-nav">Home</a></li>
-        <li><a href="/">Find a doctor</a></li>
-        <li><a href="/">Apps</a></li>
-        <li><a href="/">Testimonials</a></li>
-        <li><a href="/">About us</a></li>
+      <ul class="nav-ul">
+        <li class="nav-list"><a href="#href" class="first-nav">Home</a></li>
+        <li class="nav-list"><a href="#href">Find a doctor</a></li>
+        <li class="nav-list"><a href="#href">Apps</a></li>
+        <li class="nav-list"><a href="#href">Testimonials</a></li>
+        <li class="nav-list"><a href="#href">About us</a></li>
       </ul>
     </nav>
   </header>
@@ -31,7 +32,7 @@
         <p>Trafalgar provides progressive, and affordable
           healthcare, accessible on mobile and online<br>
           for everyone</p>
-        <button type="button">Consult today</button>
+        <button type="button" class="btn-sec-1">Consult today</button>
       </div>
       <img src="./images/trafalgar-header illustration.jpg" alt="illustration with men and doctor">
     </section>
@@ -48,7 +49,7 @@
             <li>
               <div class="service-div">
                 <div class="service-img">
-                  <img src="./images/glass.svg" alt="">
+                  <img src="./images/glass.svg" alt="magnifier">
                 </div>
                 <h3>Search doctor</h3>
                 <p>Choose your doctor from thousands<br> of specialist, general, and trusted<br> hospitals</p>
@@ -57,7 +58,7 @@
             <li>
               <div class="service-div">
                 <div class="service-img">
-                  <img src="./images/jar.svg" alt="">
+                  <img src="./images/jar.svg" alt="medical jar">
                 </div>
                 <h3>Online pharmacy</h3>
                 <p>Buy your medicines with our<br> mobile application with a simple<br> delivery system</p>
@@ -66,7 +67,7 @@
             <li>
               <div class="service-div">
                 <div class="service-img">
-                  <img src="./images/tablet.svg" alt="">
+                  <img src="./images/tablet.svg" alt="medical tablet">
                 </div>
                 <h3>Consultation</h3>
                 <p>Free consultation with our trusted<br> doctors and get the best<br> recomendations</p>
@@ -75,7 +76,7 @@
             <li>
               <div class="service-div">
                 <div class="service-img">
-                  <img src="./images/pad.svg" alt="">
+                  <img src="./images/pad.svg" alt="pad">
                 </div>
                 <h3>Details info</h3>
                 <p>Free consultation with our trusted<br> doctors and get the best<br> recomendations</p>
@@ -84,7 +85,7 @@
             <li>
               <div class="service-div">
                 <div class="service-img">
-                  <img src="./images/bag.svg" alt="">
+                  <img src="./images/bag.svg" alt="medical bag">
                 </div>
                 <h3>Emergency care</h3>
                 <p>You can get 24/7 urgent care for<br> yourself or your children and your<br>
@@ -94,25 +95,25 @@
             <li>
               <div class="service-div">
                 <div class="service-img">
-                  <img src="./images/medbook.svg" alt="">
+                  <img src="./images/medbook.svg" alt="medical book">
                 </div>
                 <h3>Tracking</h3>
                 <p>Track and save your medical history<br> and health data<br>. </p>
               </div>
             </li>
           </ul>
-          <button type="button">Learn more</button>
+          <button type="button" class="btn-sec-2">Learn more</button>
         </div>
       </div>
     </section>
     <section class="section-3">
-      <img src="./images/trafalgar-illustration sec02 1.jpg" alt="">
+      <img src="./images/trafalgar-illustration sec02 1.jpg" alt="illustration with digital medicine">
       <div class="sec-3-div">
         <h2 class="h2-left">Leading healthcare<br> providers</h2>
         <p>Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone. To
           us, it’s not just work. We take pride
           in the solutions we deliver</p>
-        <button type="button">Learn more</button>
+        <button type="button" class="btn-sec-3">Learn more</button>
       </div>
     </section>
     <section class="section-4">
@@ -122,11 +123,14 @@
           web portal allow you to access information<br>
           instantaneously (no tedeous form, long calls,<br>
           or administrative hassle) and securely</p>
-        <a href="" download>Download</a>
+        <a href="#href" download class="download-link"><span>Download</span><span class="icon icon-down-arrow"></span>
+        </a>
       </div>
       <img src="./images/trafalgar-illustration sec03 1.jpg" alt="mobile app illustration">
     </section>
     <article class="review">
+      <img src="./images/artile-top.svg" alt="decore dots" class="decore-dots-article">
+      <img src="./images/article-bottom.svg" alt="decore dots" class="decore-dots-article-2">
       <h2 class="review-h2">What our customer are saying</h2>
       <div class="slide">
         <div class="person-review">
@@ -142,31 +146,33 @@
         </p>
       </div>
     </article>
-    <div class="button-slider">
-      <button type="button"></button>
-      <button type="button"></button>
-      <button type="button"></button>
-      <button type="button"></button>
-      <button type="button"></button>
-    </div>
+    <ul class="button-slider">
+      <li><button class="icon icon-left-arrow slider-left-arrow" aria-label="go to previous slide"></button></li>
+      <li><button class="btn-mid btn-active" aria-label="go to slide 1"></button></li>
+      <li><button class="btn-mid" aria-label="go to slide 2"></button></li>
+      <li><button class="btn-mid" aria-label="go to slide 3"></button></li>
+      <li><button class="btn-mid" aria-label="go to slide 4"></button></li>
+      <li><button class="icon icon-right-arrow slider-right-arrow" aria-label="go to next slide"></button></li>
+    </ul>
     <section class="section-5">
       <div class="articles">
         <div class="h2-sec-5">
           <h2 class="h2-center">Check out our latest article</h2>
         </div>
         <div class="article-preview">
-          <img src="./images/injection.jpg" alt="">
+          <img src="./images/injection.jpg" alt="injection">
           <div class="article-preview-text">
             <div>
               <h5>Disease detection, check up in the laboratory</h5>
               <p>In this case, the role of the health laboratory is very important to do
                 a disease detection... </p>
             </div>
-            <a href="">Read more</a>
+            <a href="#href" class="article-read-more"><span>Read more</span><span
+                class="icon icon-right-arrow sec-5-rigth-arrow"></span></a>
           </div>
         </div>
         <div class="article-preview">
-          <img src="./images/laboratory.jpg" alt="">
+          <img src="./images/laboratory.jpg" alt="doc looking through a microscope">
           <div class="article-preview-text">
             <div>
               <h5>Herbal medicines that are
@@ -175,11 +181,12 @@
                 Herbal medicine is very widely used at this time because of its very good for your health...
               </p>
             </div>
-            <a href="">Read more</a>
+            <a href="#href" class="article-read-more"><span>Read more</span><span
+                class="icon icon-right-arrow sec-5-rigth-arrow"></span></a>
           </div>
         </div>
         <div class="article-preview">
-          <img src="./images/skin.jpg" alt="">
+          <img src="./images/skin.jpg" alt="face in mask">
           <div class="article-preview-text">
             <div>
               <h5>Natural care for healthy facial skin</h5>
@@ -187,19 +194,23 @@
                 A healthy lifestyle should start from now and also for your skin health. There are some...
               </p>
             </div>
-            <a href="">Read more</a>
+            <a href="#href" class="article-read-more"><span>Read more</span>
+              <span class="icon icon-right-arrow sec-5-rigth-arrow"></span></a>
           </div>
         </div>
       </div>
-      <button type="button">View all</button>
+      <button type="button" class="btn-sec-5">View all</button>
+      <img src="./images/footer-top.svg" alt="decor dots" class="dots-sec-5">
     </section>
   </main>
 </body>
 <footer class="footer">
+  <img src="./images/footer-bottom.svg" alt="decor dots" class="decor-dots">
   <div class="footer-container">
     <div class="footer-contant">
       <div class="footer-block">
-        <a href="/"><img src="./images/logo-footer.svg" alt=""></a>
+        <a href="#href" aria-label="logo of the company"><img src="./images/logo-footer.svg"
+            alt="logo of the company"></a>
         <p class="footer-text">
           Trafalgar provides progressive, and affordable<br> healthcare,
           accessible on mobile and online<br>for everyone</p>
@@ -208,28 +219,28 @@
       <div class="footer-block">
         <h5>Company</h5>
         <ul>
-          <li><a href="">About</a></li>
-          <li><a href="">Testimonials</a></li>
-          <li><a href="">Find a doctor</a></li>
-          <li><a href="">Apps</a></li>
+          <li><a href="#href">About</a></li>
+          <li><a href="#href">Testimonials</a></li>
+          <li><a href="#href">Find a doctor</a></li>
+          <li><a href="#href">Apps</a></li>
         </ul>
       </div>
       <div class="footer-block">
         <h5>Region</h5>
         <ul>
-          <li><a href="">Indonesia</a></li>
-          <li><a href="">Singapore</a></li>
-          <li><a href="">Hongkong</a></li>
-          <li><a href="">Canada</a></li>
+          <li><a href="#href">Indonesia</a></li>
+          <li><a href="#href">Singapore</a></li>
+          <li><a href="#href">Hongkong</a></li>
+          <li><a href="#href">Canada</a></li>
         </ul>
       </div>
       <div class="footer-block">
         <h5>Help</h5>
         <ul>
-          <li><a href="">Help center</a></li>
-          <li><a href="">Contact support</a></li>
-          <li><a href="">Instructions</a></li>
-          <li><a href="">How it works</a></li>
+          <li><a href="#href">Help center</a></li>
+          <li><a href="#href">Contact support</a></li>
+          <li><a href="#href">Instructions</a></li>
+          <li><a href="#href">How it works</a></li>
         </ul>
       </div>
     </div>
